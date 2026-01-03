@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Elektrikář Roudnice nad Labem | Soukromý podnikatel</title>
+    <meta name="description" content="Soukromý elektrikář v Roudnici nad Labem. Elektroinstalace, opravy, revize. Rychlý a spolehlivý servis.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        :root {
+            --dark: #0f172a;
+            --accent: #facc15;
+            --bg: #f8fafc;
+            --card: #ffffff;
+        }
+
+        * { box-sizing: border-box; }
+
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: var(--bg);
+            color: var(--dark);
+        }
+
+        header {
+            background: linear-gradient(135deg, #0f172a, #1e293b);
+            color: white;
+            padding: 90px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 44px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+            opacity: 0.9;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 15px 32px;
+            background: var(--accent);
+            color: black;
+            font-weight: bold;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .btn:hover { transform: scale(1.05); }
+
+        section {
+            max-width: 1100px;
+            margin: auto;
+            padding: 70px 20px;
+        }
+
+        h2 {
+            font-size: 32px;
+            margin-bottom: 30px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .card {
+            background: var(--card);
+            padding: 30px;
+            border-radius: 18px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.07);
+        }
+
+        .contact {
+            background: var(--dark);
+            color: white;
+            border-radius: 24px;
+        }
+
+        .contact a {
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            font-size: 14px;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Elektrikář Roudnice nad Labem</h1>
+    <p>Soukromý podnikatel • Moderní elektroinstalace</p>
+    <a href="tel:+420777148793" class="btn">Zavolat: +420 777 148 793</a>
+</header>
+
+<section>
+    <h2>Elektro služby</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Elektroinstalace</h3>
+            <p>Nové rozvody elektřiny v bytech, domech a menších firmách.</p>
+        </div>
+        <div class="card">
+            <h3>Opravy a servis</h3>
+            <p>Rychlé odstranění poruch, výměna zásuvek, jističů a světel.</p>
+        </div>
+        <div class="card">
+            <h3>Revize</h3>
+            <p>Výchozí i pravidelné revize elektroinstalací dle norem ČR.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Proč si vybrat mě</h2>
+    <div class="grid">
+        <div class="card">✔ Soukromý a osobní přístup</div>
+        <div class="card">✔ Rychlá dostupnost v Roudnici nad Labem</div>
+        <div class="card">✔ Moderní řešení a kvalitní materiály</div>
+        <div class="card">✔ Bezpečnost a spolehlivost</div>
+    </div>
+</section>
+
+<section id="kontakt" class="contact">
+    <h2>Kontakt</h2>
+    <p><strong>Telefon:</strong>
+        <a href="tel:+420777148793">+420 777 148 793</a>
+    </p>
+    <p><strong>Email:</strong>
+        <a href="mailto:polyak.miroszlav@email.cz">
+            polyak.miroszlav@email.cz
+        </a>
+    </p>
+    <p><strong>Působnost:</strong> Roudnice nad Labem a okolí</p>
+</section>
+
+<footer>
+    © 2026 Elektrikář Roudnice nad Labem – soukromý podnikatel
+</footer>
+
+</body>
+</html>
